@@ -62,41 +62,41 @@ body {
 }
 @media (max-width:900px) {
     .container {
-        padding-top: 20vw;
+        padding-top: 30vw;
     }
     .display1 {
-        width:35vw;
-        height:35vw;
+        width:45vw;
+        height:45vw;
         font-size:7vw;
     }
     .container2 {
-        margin-top:15vw;
+        margin-top:25vw;
     }
 }
 @media (max-width:600px) {
     .container {
-        padding-top: 25vw;
+        padding-top: 35vw;
     }
     .display1 {
-        width:40vw;
-        height:40vw;
-        font-size:8vw;
+        width:60vw;
+        height:60vw;
+        font-size:12vw;
     }
     .container2 {
-        margin-top:20vw;
+        margin-top:30vw;
     }
 }
 @media (max-width:400px) {
     .container {
-        padding-top: 30vw;
+        padding-top: 40vw;
     }
     .display1 {
-        width:50vw;
-        height:50vw;
-        font-size:10vw;
+        width:70vw;
+        height:70vw;
+        font-size:15vw;
     }
     .container2 {
-        margin-top:25vw;
+        margin-top:35vw;
     }
 }
 
