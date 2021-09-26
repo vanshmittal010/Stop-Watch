@@ -55,16 +55,16 @@ function startStop(){
         interval = window.setInterval(stopWatch, 10);
         document.getElementById("startstop").innerHTML = "Stop";
         status = "started";
-        $('.display1').addClass("anim");
-        $('.anim').css("animation-play-state","running");
+        
+        
     }
     else{
 
         window.clearInterval(interval);
         document.getElementById("startstop").innerHTML = "Start";
         status = "stopped";
-        //$('.display1').removeClass("anim");
-        $('.anim').css("animation-play-state","paused");
+        
+        
     }
 
 }
@@ -76,5 +76,5 @@ function reset(){
     hours = 0;
     document.getElementById("timer").innerHTML = "00:00:00";
     document.getElementById("startstop").innerHTML = "Start";
-    $('.display1').removeClass("anim");
+    
 }

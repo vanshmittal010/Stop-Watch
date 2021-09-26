@@ -2,8 +2,8 @@ body {
     top:0px;
     left:0px;
     background-image: url('pocket-watch-clock-time-old.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
+    
+    
 }
 .container {
     width:100%;
@@ -13,8 +13,8 @@ body {
 .display1 {
     background-color:hsla(177, 89%, 15%, 0.389);
     border-radius:50%;
-    width:20vw;
-    height:20vw;
+    width:25vw;
+    height:25vw;
     text-align:center;
     font-size:5vw;
     font-weight: bold;
@@ -26,58 +26,12 @@ body {
     align-items:center;
    
 }
-.anim{
-    animation-name:oscillate;
-    animation-duration:20s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-@keyframes  oscillate{
-    0% {
-        
-    }
-    11.11% {
-        top:0px;
-        margin-left:800px;
-    }
-    22.22% {
-        top:300px;
-        margin-left:1230px;
-    }
-    33.33% {
-        top:425px;
-        margin-left:1000px;
-    }
-    44.44% {
-        top:0px;
-        margin-left:200px;
-    }
-    55.55% {
-        margin-left:0px;
-        top:150px;
-    }
-    66.66% {
-        margin-left:150px;
-        top:425px;
-    }
-    77.77%{
-        margin-left:350px;
-        top:0px;
-    }
-    88.88% {
-        margin-left:475px;
-        top:300px;
-    }
-    100% {
-        top:30%;
-        margin-left:600px;
-    }
-}
+
 
 .container2 {
     width:100%;
     text-align:center;
-    margin-top:8vw;
+    margin-top:5vw;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -93,4 +47,57 @@ body {
     font-weight: bolder;
     cursor: pointer;
 }
+@media (max-width:1200px) {
+    .container {
+        padding-top: 15vw;
+    }
+    .display1 {
+        width:30vw;
+        height:30vw;
+        font-size:6vw;
+    }
+    .container2 {
+        margin-top:19vw;
+    }
+}
+@media (max-width:900px) {
+    .container {
+        padding-top: 20vw;
+    }
+    .display1 {
+        width:35vw;
+        height:35vw;
+        font-size:7vw;
+    }
+    .container2 {
+        margin-top:15vw;
+    }
+}
+@media (max-width:600px) {
+    .container {
+        padding-top: 25vw;
+    }
+    .display1 {
+        width:40vw;
+        height:40vw;
+        font-size:8vw;
+    }
+    .container2 {
+        margin-top:20vw;
+    }
+}
+@media (max-width:400px) {
+    .container {
+        padding-top: 30vw;
+    }
+    .display1 {
+        width:50vw;
+        height:50vw;
+        font-size:10vw;
+    }
+    .container2 {
+        margin-top:25vw;
+    }
+}
+
 
