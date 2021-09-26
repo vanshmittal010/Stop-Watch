@@ -1,0 +1,96 @@
+body {
+    top:0px;
+    left:0px;
+    background-image: url('pocket-watch-clock-time-old.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container {
+    width:100%;
+    height:auto;
+    padding-top: 10vw;
+}
+.display1 {
+    background-color:hsla(177, 89%, 15%, 0.389);
+    border-radius:50%;
+    width:20vw;
+    height:20vw;
+    text-align:center;
+    font-size:5vw;
+    font-weight: bold;
+    color:white;
+    box-shadow:0px 0px 15px 2px hsl(165, 100%, 51%);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items:center;
+   
+}
+.anim{
+    animation-name:oscillate;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes  oscillate{
+    0% {
+        
+    }
+    11.11% {
+        top:0px;
+        margin-left:800px;
+    }
+    22.22% {
+        top:300px;
+        margin-left:1230px;
+    }
+    33.33% {
+        top:425px;
+        margin-left:1000px;
+    }
+    44.44% {
+        top:0px;
+        margin-left:200px;
+    }
+    55.55% {
+        margin-left:0px;
+        top:150px;
+    }
+    66.66% {
+        margin-left:150px;
+        top:425px;
+    }
+    77.77%{
+        margin-left:350px;
+        top:0px;
+    }
+    88.88% {
+        margin-left:475px;
+        top:300px;
+    }
+    100% {
+        top:30%;
+        margin-left:600px;
+    }
+}
+
+.container2 {
+    width:100%;
+    text-align:center;
+    margin-top:8vw;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#startstop,#reset {
+    padding:15px 45px;
+    margin-inline-start:2vw;
+    margin-inline-end:2vw;
+    font-size:2vw;
+    border-radius:25px;
+    box-shadow:0px 10px 3px rgb(1, 0, 12);
+    background-color:slateblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
